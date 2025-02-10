@@ -6,7 +6,7 @@ namespace DataStructureNonLinear
     {
         static void Main(string[] args)
         {
-            
+
             Tree t = new Tree();
             t.Insert(10);
             t.Insert(20);
@@ -17,7 +17,7 @@ namespace DataStructureNonLinear
             t.Pre_order(t.returnRoot());
             Console.WriteLine();
             t.In_order(t.returnRoot());
-            Console.WriteLine(); 
+            Console.WriteLine();
             t.Post_order(t.returnRoot());
 
 
