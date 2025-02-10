@@ -1,0 +1,13 @@
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.exe
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.deps.json
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.runtimeconfig.json
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.runtimeconfig.dev.json
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.dll
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\bin\Debug\netcoreapp3.1\DataStructureNonLinear.pdb
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.AssemblyInfoInputs.cache
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.AssemblyInfo.cs
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.csproj.CoreCompileInputs.cache
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.dll
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.pdb
+C:\Users\Sai Indu\source\repos\DataStructureNonLinear\DataStructureNonLinear\obj\Debug\netcoreapp3.1\DataStructureNonLinear.genruntimeconfig.cache
