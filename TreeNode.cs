@@ -1,101 +1,101 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Aardvark.Base;
 
 namespace DataStructureNonLinear
 {
     internal class TreeNode
     {
-        internal int value;
-        public  TreeNode left;
-       public  TreeNode right;
-        
+        public int value;
+        public TreeNode left, right;
+
+        // Constructor for TreeNode
+        public TreeNode(int data)
+        {
+            value = data;
+            left = right = null;
+        }
     }
 
     internal class Tree
     {
-        internal TreeNode root;
-        public Tree(TreeNode root)
+        public TreeNode root;
+
+        public Tree()
         {
             root = null;
         }
 
-        public Tree()
-        {
-        }
-
-        public TreeNode returnRoot()
+        public TreeNode ReturnRoot()
         {
             return root;
         }
-        
+
         public void Insert(int data)
         {
-            TreeNode t = new TreeNode();
-            t.value = data;
+            TreeNode newNode = new TreeNode(data);
+
             if (root == null)
             {
-                root = t;
+                root = newNode;
+                return;
             }
-            else
+
+            TreeNode current = root;
+            TreeNode parent = null;
+
+            while (current != null)
             {
-                TreeNode current = root;
-                TreeNode parent;
-                while (true)
+                parent = current;
+                if (data < current.value)
                 {
-                    parent = current;
-                    if (data < current.value)
+                    current = current.left;
+                    if (current == null)
                     {
-                        current = current.left;
-                        if (current == null)
-                        {
-                            parent.left = t;
-                            return;
-                        }
+                        parent.left = newNode;
+                        return;
                     }
-                    else
-                    {
-                        current=current.right;
-                        if(current == null)
-                        {
-                            parent.right = t;
-                            return;
-                        }
-                    }
-               
                 }
-
+                else
+                {
+                    current = current.right;
+                    if (current == null)
+                    {
+                        parent.right = newNode;
+                        return;
+                    }
+                }
             }
-
-           
         }
-        public void Pre_order(TreeNode root)
+
+        public void PreOrder(TreeNode root)
         {
             if (root != null)
             {
-                Console.WriteLine(root.value+" ");
-                Pre_order(root.left);
-                Pre_order(root.right);
+                Console.Write(root.value + " ");
+                PreOrder(root.left);
+                PreOrder(root.right);
             }
         }
-        public void In_order(TreeNode root)
-        {
-            if (root != null)
-            {
-                
-                Pre_order(root.left);
-                Console.WriteLine(root.value + " ");
-                Pre_order(root.right);
-            }
-        }
-        public void Post_order(TreeNode root)
-        {
-            if (root != null)
-            {
 
-                Pre_order(root.left);
-                Pre_order(root.right);
-                Console.WriteLine(root.value + " ");
+        public void InOrder(TreeNode root)
+        {
+            if (root != null)
+            {
+                InOrder(root.left);
+                Console.Write(root.value + " ");
+                InOrder(root.right);
+            }
+        }
+
+        public void PostOrder(TreeNode root)
+        {
+            if (root != null)
+            {
+                PostOrder(root.left);
+                PostOrder(root.right);
+                Console.Write(root.value + " ");
             }
         }
     }
