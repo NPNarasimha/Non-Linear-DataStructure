@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "IgcUhW9nQoo=",
+  "dgSpecHash": "Osj1GCUO95s=",
   "success": true,
   "projectFilePath": "C:\\Users\\Sai Indu\\source\\repos\\DataStructureNonLinear\\DataStructureNonLinear\\DataStructureNonLinear.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\aardvark.base\\5.3.7\\aardvark.base.5.3.7.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\aardvark.base.telemetry\\5.3.7\\aardvark.base.telemetry.5.3.7.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\singlefileextractor.core\\2.2.1\\singlefileextractor.core.2.2.1.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\Sai Indu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

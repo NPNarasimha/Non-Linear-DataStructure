@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataStructureNonLinear")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b263796c52f465b8b505d01e3c1448f74f6ef7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6c040f062edc33c89a7296168aca7c3afee2be9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataStructureNonLinear")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataStructureNonLinear")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
