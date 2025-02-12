@@ -6,7 +6,7 @@ using Aardvark.Base;
 
 namespace DataStructureNonLinear
 {
-    internal class ArrayListGenerics
+    internal class ListGenerics
     {
         public void ArrList()
         {

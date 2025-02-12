@@ -64,18 +64,26 @@ namespace DataStructureNonLinear
               Console.WriteLine(calc.Divide<double>(10.0, 20.0));
             */
 
-            /*  ArrayListGenerics arr = new ArrayListGenerics();
+            /*  ListGenerics arr = new ListGenerics();
               arr.ArrList();
             */
-            /* SetGenerics set = new SetGenerics();
-             set.Sets();
-         */
+             SetGenerics set = new SetGenerics();
+              set.Sets();
+          
 
             /*StackGenerics stack = new StackGenerics();
             stack.Stacks();
 */
-            QueueGenerics queue = new QueueGenerics();
-            queue.Queues();
+            /* QueueGenerics queue = new QueueGenerics();
+             queue.Queues();
+            */
+            /*  ArrList arr = new ArrList();
+              arr.ArrL();
+            */
+
+           /* Sortedlist sl = new Sortedlist();
+            sl.SorList();
+           */
         }
     }
 

@@ -22,6 +22,7 @@ namespace DataStructureNonLinear
             stack.Push(80);
             stack.Push(90);
             stack.Push(100);
+            
             foreach (var item in stack)
             {
                 Console.Write(item + " ");

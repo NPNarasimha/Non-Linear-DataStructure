@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections;
 
 namespace DataStructureNonLinear
 {
@@ -9,6 +10,7 @@ namespace DataStructureNonLinear
         public void Sets()
         {
             HashSet<int> set = new HashSet<int>();
+
             set.Add(10);
             set.Add(20);
             set.Add(30);
